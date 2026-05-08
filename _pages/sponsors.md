@@ -181,7 +181,7 @@ permalink: /sponsors/
        
                <a href="https://www.vastdata.com/">
       <div class="sponsor-logo">
-        <img src="https://www.azken.com/blog/wp-content/uploads/2023/11/vast-data-logo-e1699353382846.png">
+        <img src="https://media.datacenterdynamics.com/media/images/vast-stacked-logo-hex-blue.original.png"/>
       </div>
        </a>
        
