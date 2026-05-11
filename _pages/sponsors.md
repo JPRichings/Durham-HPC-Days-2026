@@ -200,7 +200,7 @@ permalink: /sponsors/
 
                  <a href="https://www.bios-it.co.uk/home.aspx">
       <div class="sponsor-logo">
-        <img src="assets/images/biositlogo.png">
+        <img src="../assets/images/biositlogo.png">
       </div>
        </a>
        
