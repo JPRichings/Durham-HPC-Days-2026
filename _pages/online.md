@@ -237,7 +237,7 @@ Durham HPC Days 2026 offers free online participation for selected sessions.
 
 Not every session will be available online, so please check the programme for sessions marked as <strong>Available Online</strong>. Each online session has its own registration page and requires a separate registration. <br>
 
-<a href="/programme-week-2026/" class="btn">
+<a href="https://hpc-days.github.io/Durham-HPC-Days-2026/programme-week-2026/" class="btn">
 Explore the Programme →
 </a>
 
@@ -318,7 +318,7 @@ Please make sure the email address you register with is correct and check your s
 
 </p>
 
-<a href="/programme-week-2026/" class="btn">
+<a href="https://hpc-days.github.io/Durham-HPC-Days-2026/programme-week-2026/" class="btn">
 Explore the Programme →
 </a>
 
