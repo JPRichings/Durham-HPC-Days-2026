@@ -5,32 +5,112 @@ permalink: /attendee-information/
 ---
 
 <style>
-.parallax-hero {
-  width: 100vw;
-  margin-left: calc(50% - 50vw);
-  height: 50vh;
-  background-image: url("https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/eva-blue-banner-no-title.png?raw=true");
-  background-attachment: fixed;
-  background-position: 120% 80%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display:flex;
-  align-items:center;
-  justify-content:center;
+
+  .ws-hero {
+    position: relative;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    height: 52vh;
+    min-height: 320px;
+    background-image: url("https://github.com/hpc-days/Durham-HPC-Days-2026/blob/main/assets/images/eva-blue-banner-no-title.png?raw=true");
+    background-attachment: fixed;
+    background-position: center 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+
+  .ws-hero__overlay {
+    position: absolute;
+    inset: 0;
+background:
+  linear-gradient(
+    rgba(0,42,65,0.92),
+    rgba(0,42,65,0.92)
+  );
+    }
+
+
+  .ws-hero__grid {
+    position: absolute;
+    inset: 0;
+    background-image:
+   linear-gradient(rgba(255, 220, 120, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 220, 120, 0.06) 1px, transparent 1px);
+    background-size: 48px 48px;
+    pointer-events: none;
+  }
+
+  .ws-hero__content {
+    position: relative;
+    z-index: 2;
+    padding: 0 3rem 3rem;
+    max-width: 860px;
+  }
+
+  .ws-hero__eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.65);
+    margin-bottom: 0.75rem;
+  }
+
+  .ws-hero__eyebrow::before {
+    content: '';
+    display: block;
+    width: 28px;
+    height: 2px;
+  background: #ffffff;
+    border-radius: 2px;
+  }
+
+  .ws-hero h1 {
+    
+    font-size: clamp(2.4rem, 5vw, 4rem);
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 0 0.5rem;
+    line-height: 1.08;
+    letter-spacing: -0.02em;
+  }
+
+  .ws-hero h1 em {
+    font-style: italic;
+    color: #7ec8ff;
+  }
+
+  .ws-hero__sub {
+    font-size: 1rem;
+    color: rgba(255,255,255,0.60);
+    font-weight: 300;
+    margin: 0;
+    letter-spacing: 0.01em;
+  }
+  
+  @media(max-width:768px){
+
+.ws-hero{
+height:35vh;
+align-items:center;
+text-align:center;
 }
 
-.parallax-overlay {
-  background: linear-gradient(rgba(104,36,109,0.85), rgba(70,20,75,0.85));
-  color:white;
-  padding:2rem 5rem;
-  border-radius:14px;
-  text-align:center;
+.ws-hero__content{
+padding:0 1.5rem;
 }
 
-.parallax-hero h1 {
-  color:white;
-  font-size:4rem;
-  margin:0;
+.ws-hero__eyebrow{
+display:none;
+}
+
 }
 
 .section-content {
@@ -89,13 +169,24 @@ permalink: /attendee-information/
 </style>
 
 
-<section class="parallax-hero">
-  <div class="parallax-overlay">
-    <h1>Attendee Information</h1>
-    <p>Everything you need before arriving at HPC Days 2026</p>
-  </div>
-</section>
+<section class="ws-hero">
 
+<div class="ws-hero__grid"></div>
+
+<div class="ws-hero__content">
+
+<p class="ws-hero__eyebrow">
+Durham HPC Days 2026
+</p>
+
+<h1>Attendee Information</h1>
+
+<p class="ws-hero__sub">
+Everything you need before arriving at HPC Days 2026
+</p>
+
+</div>
+</section>
 
 <section class="section-content">
 
@@ -171,33 +262,59 @@ Durham DH1 3UP
   <p>
   
    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=i9hQcmhLKUW-RNWaLYpvlBhRpzyeDrFBkd8HIFx_xpdUNjVDQkUwVEhYUlg4NFVZODdQMUVWMk9MWi4u">Parking request form</a>
-   
-   
-    <strong>Parking request form:</strong> [ADD LINK HERE]
+
   </p>
 </div>
-
 
 <!-- TRAVEL -->
 <div class="info-card">
   <h2>Travel</h2>
 
   <p>
-    The University's official
+    The University’s official
     <a href="https://www.durham.ac.uk/visit-us/">Visit Us page</a>
-    provides general travel guidance.
+    provides some general guidance. Below are additional notes on how to reach the venue.
   </p>
 
-  <h3>By train</h3>
+  <h3>From Newcastle International Airport</h3>
   <ul class="checklist">
-    <li>Durham station is around 15 minutes from Newcastle by train</li>
-    <li>Taxis and buses are available from the station to campus</li>
+    <li>
+      Take the Metro (there is only one line) to Newcastle Central Station
+      (less than 40 minutes), then take a train south to Durham.
+      Durham is approximately 15 minutes from Newcastle by train.
+    </li>
+
+    <li>
+      Alternatively, you can take a taxi directly from the airport
+      (around £60, approximately 40 minutes).
+    </li>
   </ul>
 
-  <h3>By air</h3>
+  <h3>From Durham Train Station</h3>
   <ul class="checklist">
-    <li>Newcastle International Airport is the closest airport</li>
-    <li>Travel to campus via Metro + train or taxi (~40 minutes total by car)</li>
+    <li>
+      The venue is a 30–40 minute walk from Durham station.
+    </li>
+
+    <li>
+      Taxis are usually available outside the station and cost approximately £10–15.
+    </li>
+
+    <li>
+      There is a bus stop directly outside the station with two relevant services:
+    </li>
+  </ul>
+
+  <h3>Local buses</h3>
+  <ul class="checklist">
+    <li>
+      <strong>Bus 42 to Mount Oswald</strong> - runs approximately every 30 minutes.
+      Get off at “South Road Colleges”, then walk up the hill (around 5 minutes).
+    </li>
+
+    <li>
+      <strong>Bus 41 to University Science Park</strong> - get off at the final stop.
+    </li>
   </ul>
 </div>
 
@@ -240,6 +357,12 @@ Durham DH1 3UP
     included in the registration form, please contact the organisers
     as soon as possible so we can support you appropriately.
   </p>
+  
+  If you experience any issues receiving your Microsoft Teams invitation, problems registering for a session, or have questions about online participation, please get in touch with us and we will be happy to help.
+
+<br>
+
+📧 Contact: <a href="mailto:YOUR_EMAIL_HERE">eva.fernandez-amez@durham.ac.uk</a>
 </div>
 
 </section>

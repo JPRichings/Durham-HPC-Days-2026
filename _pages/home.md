@@ -3,7 +3,10 @@ layout: splash
 permalink: /
 hidden: true
 ---
-
+<div class="news-banner">
+  📢 Online participation for HPC Days 2026 is now open. You can now register to attend sessions online 
+  <a href="https://hpc-days.github.io/Durham-HPC-Days-2026/online/">How to register →</a>
+</div>
 
 <section class="ws-hero ws-hero-banner full-bleed">
 </section>
@@ -388,6 +391,32 @@ a:hover {
 }
 
 
+
+.news-banner {
+  background: linear-gradient(90deg, #572368, #940594);
+  color: white;
+  text-align: center;
+  padding: 12px 18px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  position: relative;
+  z-index: 20;
+   width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-top: 0rem !important;
+}
+
+.news-banner a {
+  color: white;
+  font-weight: 700;
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+.news-banner a:hover {
+  opacity: 0.85;
+}
 
 
   .ws-hero {
