@@ -269,7 +269,8 @@ Online participation is open to everyone and is free of charge. Whether you are 
 </div>
 
 <div class="card-text">
-Online registrations are handled individually for each session. To attend multiple sessions online, you will need to register separately for each one. Browse the conference programme and look for sessions labelled <strong>Available Online</strong>. Open the session page and select the registration button to reserve your place.
+Online registrations are handled individually for each session. To attend multiple sessions online, you will need to register separately for each one.<br>
+Browse the conference programme and look for sessions labelled <strong>Available Online</strong>. Open the session page and select the registration button to reserve your place.
 </div>
 
 </div>
@@ -283,7 +284,8 @@ Online registrations are handled individually for each session. To attend multip
 </div>
 
 <div class="card-text">
-After registering for a session, you will receive a <strong>Microsoft Teams webinar invitation</strong> with the joining details. Please make sure the email address you register with is correct and check your spam or junk folder if you do not see the invitation.
+After registering for a session, you will receive a <strong>Microsoft Teams webinar invitation</strong> with the joining details. <br>
+Please make sure the email address you register with is correct and check your spam or junk folder if you do not see the invitation.
 </div>
 
 </div>
