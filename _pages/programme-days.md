@@ -116,6 +116,9 @@ classes: [full-programme]
           <div class="session-card {{ category_class }}"
                id="{{ this_session.id | default: this_session.title | slugify }}"
                {% if this_session.part_of %}data-part="{{ this_session.part_of }}"{% endif %}>
+          
+          
+          
           {% if this_session.room %}
   <p class="room">Room: {{ this_session.room }}</p>
 {% endif %}
@@ -156,6 +159,17 @@ classes: [full-programme]
 
   </p>
 {% endif %}
+
+
+{% if this_session.hybrid %}
+  <div class="hybrid">
+    <span class="hybrid-link">
+      🌐 Available online
+    </span>
+  </div>
+{% endif %}
+
+
 
 
 
@@ -436,6 +450,36 @@ font-size: 0.6rem;
   color: #aaa;
   margin-top: 1.5rem;
 }
+
+
+.hybrid {
+  margin-top: 0.45rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hybrid-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+
+  padding: 0.3rem 0.65rem;
+
+  font-size: 0.55rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+
+  color: #2975c1;
+  background: rgba(41,117,193,0.08);
+
+  border: 1px solid rgba(41,117,193,0.18);
+  border-radius: 999px;
+
+  cursor: default;
+  user-select: none;
+}
+
+
 
 /* Responsive */
 @media (max-width: 900px) {
