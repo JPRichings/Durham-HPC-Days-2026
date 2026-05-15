@@ -353,6 +353,30 @@ border-top: 6px solid #f5b800;
 
 }
 
+
+@media(max-width: 800px){
+  .boundary { grid-template-columns: 1fr; }
+  
+    .parallax-hero {
+    height: 35vh;
+    background-attachment: scroll;
+      margin-bottom: 3rem;
+  }
+  
+  .image-4
+  .image-3
+  .image-2
+  .image-1 {
+    background-position: center;
+  }
+  
+    .hero-callout {
+    font-size: 0.95rem;
+    padding: 0.6rem 1rem;
+  }
+}
+
+
 </style>
 
 <section class="ws-hero">
